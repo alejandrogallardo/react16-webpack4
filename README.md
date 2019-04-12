@@ -6,6 +6,8 @@
 #### 4. $ npm install -D babel-loader @babel/core @babel/preset-env @babel/preset-react html-webpack-plugin
 #### 5. $ npm install style-loader css-loader --save-dev
 #### 6. Configuración de archivo webpack.config.js
+
+```
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -45,11 +47,16 @@ module.exports = {
     ]
 }
 
+```
+
 #### 7. Creación de archivo .babelrc en la raíz del proyecto
 
+```
 {
    "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
+
+```
 
 #### 8. Empezar a crear componentes en React
 
